@@ -11,6 +11,11 @@
     <name>reactor-examples</name>
     <description>Some examples of using io.projectreactor</description>
 
+    <modules>
+        <module>simple-app</module>
+        <module>mono-defer</module>
+    </modules>
+
     <properties>
         <springboot.version>2.0.1.RELEASE</springboot.version>
         <lombok.version>1.16.20</lombok.version>
